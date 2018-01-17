@@ -249,7 +249,6 @@ button:focus {
 	font-size: 35px;
 	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
-	font-weight: 600;
 	background: #fff;
 	padding: 5px 20px;
 	margin-bottom: 30px;
@@ -555,7 +554,7 @@ button:focus {
 	display: block;
 }
 
-.mu-video-iframe-area iframe {
+.mu-video-iframe-area video {
 
 }
 
@@ -962,7 +961,7 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets/images/register-bg.jpg");
+	background-image: url("assets/images/head-featured-bg.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;

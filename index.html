@@ -813,7 +813,7 @@
 
                             <div class="mu-title-area">
                                 <h2 class="mu-heading-title">Kontaktu nin</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                                <p>Ĉu vi havas demandon? Aŭ eble deziras subteni nin?</p>
                             </div>
 
                             <!-- Start Contact Content -->
@@ -823,17 +823,20 @@
                                 <div class="col-md-12">
                                     <div class="mu-contact-form-area">
                                         <div id="form-messages"></div>
-                                            <form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
-                                                <div class="form-group">                
-                                                    <input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
-                                                </div>
-                                                <div class="form-group">                
-                                                    <input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
-                                                </div>              
+                                            <form name="contact" netlify netlify-honeypot="mielpoto">
                                                 <div class="form-group">
-                                                    <textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
+                                                    <input type="text" placeholder="Ne plenigu tion" name="mielpoto" class="mielpoto">
                                                 </div>
-                                                <button type="submit" class="mu-send-msg-btn"><span>EN ORDO</span></button>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Nomo" id="nomo" name="nomo" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" placeholder="Via retadreso" id="email" name="email" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <textarea class="form-control" placeholder="Mesaĝo" id="message" name="message" required></textarea>
+                                                </div>
+                                                <button type="submit" class="mu-send-msg-btn"><span>SENDI</span></button>
                                             </form>
                                         </div>
                                     </div>
@@ -852,7 +855,7 @@
     <!-- End main content -->	
             
             
-    <!-- Start footer -->
+    <!-- Start footer 
     <footer id="mu-footer" role="contentinfo">
             <div class="container">
                 <div class="mu-footer-area">

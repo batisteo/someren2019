@@ -748,6 +748,11 @@ button:focus {
 	transition: all 0.3s ease 0s;
 }
 
+.mu-speakers-slider img {
+	/* min-height: 470px; */
+	width: 100%;
+}
+
 .mu-speakers-slider .slick-next {
 	right: -60px;
 }
